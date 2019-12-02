@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46debbc0-13a0-4d63-977a-460d8a8209e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/set_source.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +210,7 @@
       <workItem from="1574272054534" duration="40000" />
       <workItem from="1574785990491" duration="6374000" />
       <workItem from="1574961575940" duration="70000" />
-      <workItem from="1575303831356" duration="5883000" />
+      <workItem from="1575303831356" duration="9090000" />
     </task>
     <task id="LOCAL-00001" summary="Added controller concerns for devise params">
       <created>1574788843319</created>
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574788843320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactored application controller to include concern for source feature">
+      <created>1575311489600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575311489600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added controller concerns for devise params" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added controller concerns for devise params" />
+    <MESSAGE value="Refactored application controller to include concern for source feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored application controller to include concern for source feature" />
   </component>
 </project>
